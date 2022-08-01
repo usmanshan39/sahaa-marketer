@@ -1,0 +1,101 @@
+/* navbar styling start */
+.navbar{
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar.colour-navbar{
+    background-color: var(--main-orange);
+    transition-duration: 400ms;
+}
+.navbar .navbar-brand img{
+    width: 200px;
+}
+.navbar .navbar-collapse{
+    justify-content: end;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item {
+    margin-right: 50px;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--white);
+    text-transform: uppercase;
+}
+.navbar .nav-btn{
+    background-color: var(--main-orange);
+    color: var(--white);
+}
+.navbar.colour-navbar .nav-btn{
+    background-color: var(--white);
+    color: var(--main-orange) !important;
+}
+
+
+
+
+/* navbar styling end */
+
+/* main header start */
+
+.main-header{
+    background: url("../images/team.jpg") rgb(28, 42, 71, 0.8);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-blend-mode: multiply;
+}
+.main-header-content{
+    padding-top: 160px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+.main-header-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.main-header-content h3{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.main-header-content p{
+    font-size: 25px;
+}
+/* main header end */
+
+
+@media (max-width:990px){
+    /* main-header responsiveness start*/
+    .main-header-content {
+        padding-top: 120px;
+    }
+    .main-header-content h1{
+        font-size: 40px;
+    }
+    .main-header-content h3{
+        font-size: 27px;
+    }
+    .main-header-content p{
+        font-size: 20px;
+    }
+
+    /* main-header responsiveness end */
+}
+
+@media (min-width:990px) And (max-width:1400px){
+
+    /* navbar responsiveness start*/
+
+    .navbar .navbar-collapse .navbar-nav .nav-item{
+        margin-right: 3px;
+    }
+
+
+    /* navbar responsiveness end */
+
+}
