@@ -242,7 +242,14 @@
     color: #707070;
     font-size: 18px;
 }
-
+.market-about-us .third-row .images-sec{
+    margin-top: 70px;
+}
+.market-about-us .third-row .images-sec .position-img{
+    position: absolute;
+    top: -70px;
+    
+}
 
 
 
