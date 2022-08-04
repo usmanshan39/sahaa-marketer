@@ -249,7 +249,9 @@
         display: none;
     }
     .carousel-indicators{
-        display: none;
+        bottom: -10%;
+        left: 0;
+        flex-direction: row;
     }
 
 
