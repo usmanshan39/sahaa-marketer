@@ -244,11 +244,12 @@
 }
 .market-about-us .third-row .images-sec{
     margin-top: 70px;
+    position: relative;
 }
 .market-about-us .third-row .images-sec .position-img{
     position: absolute;
     top: -70px;
-    
+    right: 10px;
 }
 
 
@@ -318,6 +319,37 @@
 
 
     /* top-header end */
+
+
+    /* about us section start */
+    .market-about-us .second-row{
+        margin-top: 30px;
+    }
+    .market-about-us .third-row{
+        margin-top: 30px;
+    }
+
+    .market-about-us .second-row h1{
+        font-size: 25px;
+    }
+    .market-about-us .third-row h1{
+        font-size: 20px;
+    }
+    .market-about-us .third-row p{
+        font-size: 14px;
+    }
+    .market-about-us .third-row .circle-img {
+        width: 30px;
+        margin-top: 5px;
+    }
+    .market-about-us .third-row .images-sec{
+        margin-top: 90px;
+    }
+    .market-about-us .third-row .images-sec .position-img{
+        width: 70%;
+    }
+
+    /* about us section end */
 }
 
 
@@ -357,6 +389,25 @@
     }
 
     /* top-header start */
+
+
+    /* about us section start */
+
+    .market-about-us .second-row h1{
+        font-size: 30px;
+    }
+    .market-about-us .third-row h1{
+        font-size: 20px;
+    }
+    .market-about-us .third-row .circle-img {
+        width: 30px;
+        margin-top: 3px;
+    }
+    .market-about-us .third-row .images-sec .position-img{
+        width: 50%;
+    }
+    /* about us section end */
+    
 }
 
 @media (min-width:991px) AND (max-width:1200px) {
@@ -397,6 +448,21 @@
     }
 
     /* top-header end */
+
+    /* about us section start */
+
+    .market-about-us .second-row h1{
+        font-size: 30px;
+    }
+    .market-about-us .third-row h1{
+        font-size: 20px;
+    }
+    .market-about-us .third-row .circle-img {
+        width: 30px;
+        margin-top: 3px;
+    }
+
+    /* about us section end */
 }
 
 @media (min-width:1201px) AND (max-width:1400px) {
@@ -421,4 +487,19 @@
     }
 
     /* top-header end */
+
+
+    /* about us section start */
+
+    .market-about-us .second-row h1{
+        font-size: 45px;
+    }
+    .market-about-us .third-row h1{
+        font-size: 30px;
+    }
+    .market-about-us .third-row .circle-img {
+        width: 35px;
+    }
+
+    /* about us section end */
 }
