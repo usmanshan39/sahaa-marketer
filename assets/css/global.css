@@ -22,9 +22,11 @@ body {
     -ms-border-radius: 45px;
     -o-border-radius: 45px;
 }
-.black-fill-btn:hover{
+
+.black-fill-btn:hover {
     background-color: var(--main-back);
 }
+
 .white-outline-btn {
     border: 1px solid #fff;
     background-color: transparent;
@@ -41,9 +43,10 @@ body {
 }
 
 
-@media (max-width:990px){
+@media (max-width:990px) {
+
     .black-fill-btn,
-    .white-outline-btn{
+    .white-outline-btn {
         width: 130px;
         height: 33px;
         font-size: 12px;
