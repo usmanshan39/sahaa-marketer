@@ -2,10 +2,20 @@
     --main-back: #141414;
     --red-one: #D00928;
     --main-font: 'Saira', sans-serif;
+    --bold: 700;
+    --semibold: 600;
+    --medium: 500;
+    --regular: 400;
+    --light:200;
+    --extrabold: 800;
+    --blackbold: 900;
 }
 
 body {
     font-family: var(--main-font);
+}
+.redOne-fill-color{
+    color: var(--red-one);
 }
 
 .black-fill-btn {

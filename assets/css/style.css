@@ -206,6 +206,52 @@
 /* top-header end */
 
 
+/* home about us section start */
+
+
+.market-about-us{
+    margin-top: 50px;
+}
+.market-about-us .first-row h6{
+    font-size: 20px;
+    border-bottom: 1px solid var(--red-one);
+    color: var(--red-one);
+    width: fit-content;
+    padding-bottom: 5px;
+    margin: auto;
+}
+.market-about-us .second-row{
+    margin-top: 70px;
+}
+.market-about-us .second-row h1{
+    font-size: 55px;
+    font-weight: var(--bold);
+}
+.market-about-us .third-row{
+    margin-top: 80px;
+}
+.market-about-us .third-row .circle-img{
+    width: 40px;
+    margin-top: 8px;
+}
+.market-about-us .third-row h1{
+    font-size: 45px;
+    font-weight: var(--bold);
+}
+.market-about-us .third-row p{
+    color: #707070;
+    font-size: 18px;
+}
+
+
+
+
+/* home about us section end */
+
+
+
+
+
 
 @media (max-width:768px) {
 
