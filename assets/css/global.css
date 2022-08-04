@@ -1,77 +1,57 @@
 :root {
-    --main-orange: #d07503;
-    --white: #fff;
-    --input-dark-bg : #ECEFF5;
-    --input-dark-txt :#9AA2AA;
-    --body-color:#F8FAFF;
-    --blue:#2479FF;
-    --red:#FA254C;
-    --black:#000;
-    --green:#25C966;
-    --orange:#E28000;
-    --purple:#8C2BFC;
-    --light-blue:#267BF7;
+    --main-back: #141414;
+    --red-one: #D00928;
+    --main-font: 'Saira', sans-serif;
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+body {
+    font-family: var(--main-font);
 }
-html {
-    font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth !important;
-}
-p{
-    font-size: 16px;
-    font-weight: 500;
-}
-.light-color{
-    color: var(--input-dark-txt) !important;
-}
-.main-color{
-    color: var(--main-orange);
-}
-.mt-30{
-    margin-top: 30px;
-}
-.mt-20{
-    margin-top: 20px;
-}
-.sec-padding{
-    padding: 50px 0px;
-}
-.main-round-btn{
-    background-color: var(--main-orange);
+
+.black-fill-btn {
+    background-color: var(--main-back);
+    border: 1px solid var(--main-back);
     color: #fff;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+    height: 42px;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
 }
-@media(max-width:768px){
-    .main-round-btn{
+.black-fill-btn:hover{
+    background-color: var(--main-back);
+}
+.white-outline-btn {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+    height: 42px;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+
+
+@media (max-width:990px){
+    .black-fill-btn,
+    .white-outline-btn{
+        width: 130px;
+        height: 33px;
         font-size: 12px;
     }
 }
 
-::-webkit-scrollbar,
-table::-webkit-scrollbar {
-    width: 5px !important;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1 !important;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb,
-table::-webkit-scrollbar-thumb {
-    background: #888 !important;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555 !important;
+@media (min-width:1600px) {
+    .cus-container {
+        max-width: 1500px !important;
+    }
 }
