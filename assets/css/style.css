@@ -397,6 +397,71 @@
 /* greate team section end */
 
 
+/* video content section start */
+
+
+.market-video-content{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.market-video-content .owl-carousel .owl-item{
+    margin-top: 40px;
+    cursor: grab;
+}
+.market-video-content .owl-carousel .owl-item.center{
+    margin-top: 0;
+    cursor: pointer;
+}
+.market-video-content .owl-carousel .owl-item img{
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+.market-video-content .owl-carousel .owl-item .carosal-img-overlay {
+    background-image: linear-gradient(to right, rgb(103, 0, 1, 0.6), rgb(208, 9, 40, 0.7));
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.market-video-content .owl-carousel .owl-item.center .carosal-img-overlay{
+    background-color: transparent;
+    position: unset;
+}
+.market-video-content .owl-carousel.owl-drag .owl-item.active.center .item img{
+    width: 100%;
+}
+.market-video-content .owl-carousel {
+    position: relative;
+}
+.market-video-content .owl-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    height: fit-content;
+}
+.market-video-content .owl-carousel .owl-nav button.owl-next,
+.market-video-content .owl-carousel .owl-nav button.owl-prev,
+.market-video-content .owl-carousel button.owl-dot{
+    font-size: 50px;
+}
+
+/* video content section end */
+
+
 
 
 
@@ -520,6 +585,15 @@
     }
 
     /* digital marketing section end */
+
+
+    /* video content section start */
+
+    .market-video-content .owl-carousel .owl-item {
+        margin-top: 20px;
+    }
+
+    /* video content section end */
 }
 
 @media (min-width: 578px) AND (max-width:768px){
