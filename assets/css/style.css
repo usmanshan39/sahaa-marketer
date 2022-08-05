@@ -402,7 +402,6 @@
 
 .market-video-content{
     margin-top: 50px;
-    margin-bottom: 200px;
 }
 .market-video-content .owl-carousel .owl-item{
     margin-top: 40px;
@@ -460,6 +459,81 @@
 }
 
 /* video content section end */
+
+
+/* subscribe partner section start */
+
+.market-subscribe-partner{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.market-subscribe-partner .subscribe-sec .subscribe-text h6{
+    font-size: 20px;
+    font-weight: var(--bold);
+    color: var(--red-one);
+}
+.market-subscribe-partner .subscribe-sec .subscribe-text h1{
+    color: #fff;
+}
+.market-subscribe-partner .subscribe-sec .subscribe-text
+
+
+/* .market-subscribe-partner .main-row{
+    display: flex;
+    width: 100%;
+} */
+.market-subscribe-partner .main-row .left-sec{
+    width: 50%;
+    background-image: url("../images/Group\ 864.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.market-subscribe-partner .main-row .left-sec h6{
+    font-size: 20px;
+    font-weight: var(--bold);
+    color: var(--red-one);
+}
+.market-subscribe-partner .main-row .left-sec h1{
+    color: #fff;
+}
+
+.market-subscribe-partner .main-row .left-sec h1.outline-text{    
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.market-subscribe-partner .main-row .left-sec .subscribe-input{
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.market-subscribe-partner .main-row .left-sec .connect-btn{
+    background-color: var(--red-one);
+    font-size: 18px;
+    font-weight: var(--bold);
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 9px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/* subscribe partner section end */
 
 
 
