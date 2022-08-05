@@ -17,6 +17,18 @@ body {
 .redOne-fill-color{
     color: var(--red-one);
 }
+.section-small-h6{
+    font-size: 20px;
+    border-bottom: 1px solid var(--red-one);
+    color: var(--red-one);
+    width: fit-content;
+    padding-bottom: 5px;
+    margin: auto;
+}
+.section-h45{
+    font-size: 45px;
+    font-weight: var(--bold);
+}
 
 .black-fill-btn {
     background-color: var(--main-back);
@@ -52,6 +64,27 @@ body {
     -o-border-radius: 45px;
 }
 
+@media (max-width:768px) {
+    .section-h45{
+        font-size: 20px;
+    }
+}
+@media (min-width:769px) AND (max-width:990px) {
+    .section-h45{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:991px) AND (max-width:1200px) {
+    .section-h45{
+        font-size: 20px;
+    }
+}
+@media (min-width:1201px) AND (max-width:1400px) {
+    .section-h45{
+        font-size: 30px;
+    }
+}
 
 @media (max-width:990px) {
 
@@ -67,4 +100,29 @@ body {
     .cus-container {
         max-width: 1500px !important;
     }
+}
+
+/* for accordion */
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+.accordion-header > button:after {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+.accordion-header > button.collapsed:after {
+    float: right !important;
+    content:"\f067";
+}
+.accordion-header > button:hover, 
+.accordion-header > button:active, 
+.accordion-header > button:focus  {
+    text-decoration:none;
+}
+.accordion-button::after{
+    background-image: none;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
 }

@@ -212,14 +212,6 @@
 .market-about-us{
     margin-top: 50px;
 }
-.market-about-us .first-row h6{
-    font-size: 20px;
-    border-bottom: 1px solid var(--red-one);
-    color: var(--red-one);
-    width: fit-content;
-    padding-bottom: 5px;
-    margin: auto;
-}
 .market-about-us .second-row{
     margin-top: 70px;
 }
@@ -233,10 +225,6 @@
 .market-about-us .third-row .circle-img{
     width: 40px;
     margin-top: 8px;
-}
-.market-about-us .third-row h1{
-    font-size: 45px;
-    font-weight: var(--bold);
 }
 .market-about-us .third-row p{
     color: #707070;
@@ -255,6 +243,127 @@
 
 
 /* home about us section end */
+
+
+
+/* case study section start */
+
+
+
+.market-case-study{
+    margin-top: 50px;
+}
+.market-case-study .cards-row .case-card {
+    position: relative;
+    cursor: pointer;
+}
+.market-case-study .cards-row .case-card:hover .case-card-text{
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+.market-case-study .cards-row .case-card .case-card-text{
+    background-color: #0F0F11;
+    color: #fff;
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.market-case-study .cards-row .case-card .case-card-text h6{
+    font-size: 15px;
+    font-weight: var(--bold);
+}
+.market-case-study .cards-row .case-card .case-card-text h5{
+    font-size: 23px;
+    font-weight: var(--bold);
+}
+.market-case-study .cards-row .case-card .case-card-text .btn{
+    border-color: var(--red-one);
+    color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/* case study section end */
+
+
+
+/* digital marketing section start */
+
+
+.market-digital-marketing{
+    margin-top: 50px;
+}
+.market-digital-marketing .video-sec{
+    position: relative;
+}
+.market-digital-marketing .video-sec .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.market-digital-marketing .accordion .accordion-button{
+    font-size: 28px;
+    font-weight: var(--bold);
+}
+.market-digital-marketing .accordion .accordion-button{
+    background-color: transparent;
+    border: 1px solid #707070;
+    box-shadow: none;
+    color: #000;
+}
+.market-digital-marketing .accordion .accordion-button:not(.collapsed){
+    background-color: transparent;
+    border: 1px solid var(--red-one);
+    box-shadow: none;
+    color: #000;
+}
+.market-digital-marketing .accordion .accordion-button:not(.collapsed)::after,
+.market-digital-marketing .accordion .accordion-header > button.collapsed:after{
+    font-size: 12px;
+}
+.market-digital-marketing .accordion .accordion-body p{
+    font-size: 18px;
+    color: #707070;
+}
+.market-digital-marketing .accordion  .accordion-item{
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+
+/* digital marketing section end */
 
 
 
@@ -332,9 +441,6 @@
     .market-about-us .second-row h1{
         font-size: 25px;
     }
-    .market-about-us .third-row h1{
-        font-size: 20px;
-    }
     .market-about-us .third-row p{
         font-size: 14px;
     }
@@ -350,8 +456,60 @@
     }
 
     /* about us section end */
+
+    /* casse study section start */
+
+
+    .market-case-study .cards-row .case-card .case-card-text{
+        padding: 12px;
+    }
+    .market-case-study .cards-row .case-card .case-card-text h6{
+        font-size: 12px;
+    }
+    .market-case-study .cards-row .case-card .case-card-text h5{
+        font-size: 15px;
+    }
+
+
+    /* casse study section end */
+
+    /* digital marketing section start */
+
+
+    .market-digital-marketing .accordion .accordion-button{
+        font-size: 22px;
+        padding: 11px 15px;
+    }
+    .market-digital-marketing .accordion .accordion-body p {
+        font-size: 15px;
+    }
+    .market-digital-marketing .video-sec .btn{
+        width: 100px;
+        height: 100px;
+        font-size: 12px;
+    }
+
+    /* digital marketing section end */
 }
 
+@media (min-width: 578px) AND (max-width:768px){
+    /* casse study section start */
+
+
+    .market-case-study .cards-row .case-card .case-card-text{
+        width: 85%;
+        padding: 12px;
+    }
+    .market-case-study .cards-row .case-card .case-card-text h6{
+        font-size: 12px;
+    }
+    .market-case-study .cards-row .case-card .case-card-text h5{
+        font-size: 15px;
+    }
+
+
+    /* casse study section end */
+}
 
 @media (min-width:769px) AND (max-width:990px) {
 
@@ -396,9 +554,6 @@
     .market-about-us .second-row h1{
         font-size: 30px;
     }
-    .market-about-us .third-row h1{
-        font-size: 20px;
-    }
     .market-about-us .third-row .circle-img {
         width: 30px;
         margin-top: 3px;
@@ -407,6 +562,39 @@
         width: 50%;
     }
     /* about us section end */
+
+
+    /* casse study section start */
+
+
+    .market-case-study .cards-row .case-card .case-card-text{
+        width: 90%;
+        padding: 12px;
+    }
+    .market-case-study .cards-row .case-card .case-card-text h6{
+        font-size: 12px;
+    }
+    .market-case-study .cards-row .case-card .case-card-text h5{
+        font-size: 15px;
+    }
+
+
+    /* casse study section end */
+
+
+     /* digital marketing section start */
+
+
+     .market-digital-marketing .accordion .accordion-button{
+        font-size: 22px;
+        padding: 11px 15px;
+    }
+    .market-digital-marketing .accordion .accordion-body p {
+        font-size: 15px;
+    }
+
+
+    /* digital marketing section end */
     
 }
 
@@ -454,15 +642,39 @@
     .market-about-us .second-row h1{
         font-size: 30px;
     }
-    .market-about-us .third-row h1{
-        font-size: 20px;
-    }
     .market-about-us .third-row .circle-img {
         width: 30px;
         margin-top: 3px;
     }
 
     /* about us section end */
+
+
+    /* casse study section start */
+
+
+    .market-case-study .cards-row .case-card .case-card-text h5{
+        font-size: 16px;
+    }
+    .market-case-study .cards-row .case-card .case-card-text h6{
+        font-size: 13px;
+    }
+
+    /* case study section end */
+
+     /* digital marketing section start */
+
+
+     .market-digital-marketing .accordion .accordion-button{
+        font-size: 22px;
+        padding: 11px 15px;
+    }
+    .market-digital-marketing .accordion .accordion-body p {
+        font-size: 15px;
+    }
+
+
+    /* digital marketing section end */
 }
 
 @media (min-width:1201px) AND (max-width:1400px) {
@@ -494,12 +706,24 @@
     .market-about-us .second-row h1{
         font-size: 45px;
     }
-    .market-about-us .third-row h1{
-        font-size: 30px;
-    }
     .market-about-us .third-row .circle-img {
         width: 35px;
     }
 
     /* about us section end */
+
+
+    /* digital marketing section start */
+
+
+    .market-digital-marketing .accordion .accordion-button{
+        font-size: 24px;
+        padding: 10px 15px;
+    }
+    .market-digital-marketing .accordion .accordion-body p {
+        font-size: 15px;
+    }
+
+
+    /* digital marketing section end */
 }
