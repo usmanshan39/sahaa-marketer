@@ -66,18 +66,18 @@ body {
 
 @media (max-width:768px) {
     .section-h45{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 @media (min-width:769px) AND (max-width:990px) {
     .section-h45{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
 @media (min-width:991px) AND (max-width:1200px) {
     .section-h45{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 @media (min-width:1201px) AND (max-width:1400px) {
