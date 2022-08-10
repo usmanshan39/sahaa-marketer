@@ -557,7 +557,84 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
 /*  best service section end */
+
+
+
+/* our packages section start */
+
+.our-packages-sec{
+    margin-top: 50px;
+}
+.our-packages-sec .packages-table-outer{
+    background-color: #17161A;
+}
+.our-packages-sec .packages-table-outer table{
+    border: transparent !important;
+}
+.our-packages-sec .packages-table-outer .table .bg{
+    background-color: #D00928;
+    color: #fff;
+    font-size: 30px;
+    font-weight: var(--medium);
+    border: 1px solid #17161A;
+}
+.our-packages-sec .packages-table-outer .empty{
+    border: none;
+    color: transparent;
+}
+.our-packages-sec .packages-table-outer .table td{
+    padding: 15px;
+    text-align: center;
+}
+.our-packages-sec .packages-table-outer .table .td-first{
+    text-align: left;
+}
+.our-packages-sec .packages-table-outer .head-table-two td{
+    font-size: 20px;
+    font-weight: var(--medium);
+    color: #fff;
+}
+.our-packages-sec .packages-table-outer tbody td{
+    font-size: 20px;
+    font-weight: var(--medium);
+    color: #fff;
+}
+.our-packages-sec .packages-table-outer tbody .mark{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.our-packages-sec .packages-table-outer tbody .active-mark{
+    background-color: #D00928;
+}
+.our-packages-sec .packages-table-outer tbody .inActive-mark{
+    background-color: #303030;
+}
+.our-packages-sec .packages-table-outer .book-call-btn{
+    background-color: #D00928;
+    color: #fff;
+    font-size: 30px;
+    font-weight: var(--medium);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+/* our packages section end */
 
 
 
@@ -820,6 +897,19 @@
 
 
     /* digital marketing section end */
+
+    /* our packages section start */
+
+    .our-packages-sec .packages-table-outer .table .bg,
+    .our-packages-sec .packages-table-outer .book-call-btn{
+        font-size: 22px;
+    }
+    .our-packages-sec .packages-table-outer tbody td,
+    .our-packages-sec .packages-table-outer .head-table-two td{
+        font-size: 18px;
+    }
+
+    /* our packages section end */
     
 }
 
