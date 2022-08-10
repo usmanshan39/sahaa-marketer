@@ -173,13 +173,13 @@
     padding-top: 50px;
 }
 
-.carousel-indicators {
+.top-header .carousel-indicators {
     left: -20%;
     bottom: 40%;
     flex-direction: column;
 }
 
-.carousel-indicators button {
+.top-header .carousel-indicators button {
     width: 10px !important;
     height: 10px !important;
     border-radius: 50% !important;
@@ -189,7 +189,7 @@
     -o-border-radius: 50% !important;
 }
 
-.carousel-indicators button.active {
+.top-header .carousel-indicators button.active {
     background-color: var(--red-one);
 }
 
@@ -465,7 +465,6 @@
 
 .market-subscribe-partner{
     margin-top: 50px;
-    margin-bottom: 200px;
 }
 .market-subscribe-partner .subscribe-sec{
     position: relative;
@@ -526,6 +525,42 @@
 
 
 
+/*  best service section start */
+
+.best-service-sec{
+    padding: 100px 0px;
+    background-color: #F4F4F4;
+}
+.best-service-sec .carousel-control-prev i,
+.best-service-sec .carousel-control-next i{
+    color: #000000 !important;
+    font-size: 30px;
+}
+.best-service-sec .carosal-text{
+    width: 75%;
+    margin: auto;
+}
+.best-service-sec .carosal-text p{
+    font-size: 22px;
+    color: #707070;
+}
+.best-service-sec .carousel-indicators{
+    bottom: -50px;
+}
+.best-service-sec .carousel-indicators [data-bs-target]{
+    background-color: #000 !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/*  best service section end */
+
+
+
 
 @media (max-width:768px) {
 
@@ -577,7 +612,7 @@
         display: none;
     }
 
-    .carousel-indicators {
+    .top-header .carousel-indicators {
         bottom: -10%;
         left: 0;
         flex-direction: row;
@@ -670,6 +705,14 @@
         top: 3px;
     }
     /* subscribe partner section end */
+
+    /*  best service section start */
+
+    .best-service-sec .carosal-text p{
+        font-size: 16px;
+    }
+
+    /*  best service section end */
 }
 
 @media (min-width: 578px) AND (max-width:768px){
