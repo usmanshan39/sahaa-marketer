@@ -634,6 +634,32 @@
     -o-border-radius: 40px;
 }
 
+.our-packages-sec-mobile .card .card-header{
+    background-color: #17161A;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+}
+.our-packages-sec-mobile .card .card-body{
+    text-align: center;
+    padding: 30px 0px;
+}
+.our-packages-sec-mobile .card .card-body h1{
+    font-size: 60px;
+    font-weight: var(--bold);
+}
+.our-packages-sec-mobile .card .card-body h6{
+    font-size: 22px;
+}
+.our-packages-sec-mobile .card .card-body .package-view-details-btn{
+    background-color: #17161A;
+    color: #fff;
+    font-size: 18px;
+   padding: 10px 20px;
+   font-weight: var(--medium);
+   margin-top: 20px;
+}
+
 /* our packages section end */
 
 
