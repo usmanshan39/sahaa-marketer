@@ -209,32 +209,39 @@
 /* home about us section start */
 
 
-.market-about-us{
+.market-about-us {
     margin-top: 50px;
 }
-.market-about-us .second-row{
+
+.market-about-us .second-row {
     margin-top: 70px;
 }
-.market-about-us .second-row h1{
+
+.market-about-us .second-row h1 {
     font-size: 55px;
     font-weight: var(--bold);
 }
-.market-about-us .third-row{
+
+.market-about-us .third-row {
     margin-top: 80px;
 }
-.market-about-us .third-row .circle-img{
+
+.market-about-us .third-row .circle-img {
     width: 40px;
     margin-top: 8px;
 }
-.market-about-us .third-row p{
+
+.market-about-us .third-row p {
     color: #707070;
     font-size: 18px;
 }
-.market-about-us .third-row .images-sec{
+
+.market-about-us .third-row .images-sec {
     margin-top: 70px;
     position: relative;
 }
-.market-about-us .third-row .images-sec .position-img{
+
+.market-about-us .third-row .images-sec .position-img {
     position: absolute;
     top: -70px;
     right: 10px;
@@ -250,18 +257,21 @@
 
 
 
-.market-case-study{
+.market-case-study {
     margin-top: 50px;
 }
+
 .market-case-study .cards-row .case-card {
     position: relative;
     cursor: pointer;
 }
-.market-case-study .cards-row .case-card:hover .case-card-text{
+
+.market-case-study .cards-row .case-card:hover .case-card-text {
     opacity: 1;
     transition-duration: 0.3s;
 }
-.market-case-study .cards-row .case-card .case-card-text{
+
+.market-case-study .cards-row .case-card .case-card-text {
     background-color: #0F0F11;
     color: #fff;
     padding: 25px;
@@ -279,15 +289,18 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.market-case-study .cards-row .case-card .case-card-text h6{
+
+.market-case-study .cards-row .case-card .case-card-text h6 {
     font-size: 15px;
     font-weight: var(--bold);
 }
-.market-case-study .cards-row .case-card .case-card-text h5{
+
+.market-case-study .cards-row .case-card .case-card-text h5 {
     font-size: 23px;
     font-weight: var(--bold);
 }
-.market-case-study .cards-row .case-card .case-card-text .btn{
+
+.market-case-study .cards-row .case-card .case-card-text .btn {
     border-color: var(--red-one);
     color: #fff;
     border-radius: 20px;
@@ -305,13 +318,15 @@
 /* digital marketing section start */
 
 
-.market-digital-marketing{
+.market-digital-marketing {
     margin-top: 50px;
 }
-.market-digital-marketing .video-sec{
+
+.market-digital-marketing .video-sec {
     position: relative;
 }
-.market-digital-marketing .video-sec .btn{
+
+.market-digital-marketing .video-sec .btn {
     position: absolute;
     top: 0;
     right: 0;
@@ -331,31 +346,37 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.market-digital-marketing .accordion .accordion-button{
+
+.market-digital-marketing .accordion .accordion-button {
     font-size: 28px;
     font-weight: var(--bold);
 }
-.market-digital-marketing .accordion .accordion-button{
+
+.market-digital-marketing .accordion .accordion-button {
     background-color: transparent;
     border: 1px solid #707070;
     box-shadow: none;
     color: #000;
 }
-.market-digital-marketing .accordion .accordion-button:not(.collapsed){
+
+.market-digital-marketing .accordion .accordion-button:not(.collapsed) {
     background-color: transparent;
     border: 1px solid var(--red-one);
     box-shadow: none;
     color: #000;
 }
+
 .market-digital-marketing .accordion .accordion-button:not(.collapsed)::after,
-.market-digital-marketing .accordion .accordion-header > button.collapsed:after{
+.market-digital-marketing .accordion .accordion-header>button.collapsed:after {
     font-size: 12px;
 }
-.market-digital-marketing .accordion .accordion-body p{
+
+.market-digital-marketing .accordion .accordion-body p {
     font-size: 18px;
     color: #707070;
 }
-.market-digital-marketing .accordion  .accordion-item{
+
+.market-digital-marketing .accordion .accordion-item {
     border: none;
     margin-top: 10px;
 }
@@ -366,29 +387,34 @@
 
 /* greate team section start */
 
-.market-great-team{
+.market-great-team {
     margin-top: 50px;
 }
-.market-great-team .cards-row .card{
+
+.market-great-team .cards-row .card {
     border: none;
     box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
     cursor: pointer;
 }
-.market-great-team .cards-row .card:hover .card-footer{
+
+.market-great-team .cards-row .card:hover .card-footer {
     border-bottom: 2px solid var(--red-one);
     cursor: pointer;
     transition-duration: 0.3s;
 }
-.market-great-team .cards-row .card-footer{
+
+.market-great-team .cards-row .card-footer {
     padding: 20px 0px;
     background-color: #fff;
     border-bottom: 2px solid transparent;
 }
-.market-great-team .cards-row .card-footer h6{
+
+.market-great-team .cards-row .card-footer h6 {
     font-size: 22px;
     font-weight: var(--bold);
 }
-.market-great-team .cards-row .card-footer p{
+
+.market-great-team .cards-row .card-footer p {
     font-size: 16px;
     color: #17161A;
     font-weight: var(--light);
@@ -400,23 +426,27 @@
 /* video content section start */
 
 
-.market-video-content{
+.market-video-content {
     margin-top: 50px;
 }
-.market-video-content .owl-carousel .owl-item{
+
+.market-video-content .owl-carousel .owl-item {
     margin-top: 40px;
     cursor: grab;
 }
-.market-video-content .owl-carousel .owl-item.center{
+
+.market-video-content .owl-carousel .owl-item.center {
     margin-top: 0;
     cursor: pointer;
 }
-.market-video-content .owl-carousel .owl-item img{
+
+.market-video-content .owl-carousel .owl-item img {
     width: 80%;
     margin: auto;
     box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
     position: relative;
 }
+
 .market-video-content .owl-carousel .owl-item .carosal-img-overlay {
     background-image: linear-gradient(to right, rgb(103, 0, 1, 0.6), rgb(208, 9, 40, 0.7));
     position: absolute;
@@ -428,17 +458,21 @@
     bottom: 0;
     margin: auto;
 }
-.market-video-content .owl-carousel .owl-item.center .carosal-img-overlay{
+
+.market-video-content .owl-carousel .owl-item.center .carosal-img-overlay {
     background-color: transparent;
     position: unset;
 }
-.market-video-content .owl-carousel.owl-drag .owl-item.active.center .item img{
+
+.market-video-content .owl-carousel.owl-drag .owl-item.active.center .item img {
     width: 100%;
 }
+
 .market-video-content .owl-carousel {
     position: relative;
 }
-.market-video-content .owl-nav{
+
+.market-video-content .owl-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -452,9 +486,10 @@
     color: #fff;
     height: fit-content;
 }
+
 .market-video-content .owl-carousel .owl-nav button.owl-next,
 .market-video-content .owl-carousel .owl-nav button.owl-prev,
-.market-video-content .owl-carousel button.owl-dot{
+.market-video-content .owl-carousel button.owl-dot {
     font-size: 50px;
 }
 
@@ -463,13 +498,15 @@
 
 /* subscribe partner section start */
 
-.market-subscribe-partner{
+.market-subscribe-partner {
     margin-top: 50px;
 }
-.market-subscribe-partner .subscribe-sec{
+
+.market-subscribe-partner .subscribe-sec {
     position: relative;
 }
-.market-subscribe-partner .subscribe-sec .subscribe-text{
+
+.market-subscribe-partner .subscribe-sec .subscribe-text {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -479,15 +516,18 @@
     height: fit-content;
     margin: auto;
 }
-.market-subscribe-partner .subscribe-sec .subscribe-text h6{
+
+.market-subscribe-partner .subscribe-sec .subscribe-text h6 {
     font-size: 20px;
     font-weight: var(--bold);
     color: var(--red-one);
 }
-.market-subscribe-partner .subscribe-sec .subscribe-text h1{
+
+.market-subscribe-partner .subscribe-sec .subscribe-text h1 {
     color: #fff;
 }
-.market-subscribe-partner .subscribe-sec .subscribe-text .subscribe-input{
+
+.market-subscribe-partner .subscribe-sec .subscribe-text .subscribe-input {
     padding: 1rem;
     background-color: #fff;
     border-radius: 50px;
@@ -496,7 +536,8 @@
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
-.market-subscribe-partner .subscribe-sec .subscribe-text .connect-btn{
+
+.market-subscribe-partner .subscribe-sec .subscribe-text .connect-btn {
     background-color: var(--red-one);
     font-size: 18px;
     font-weight: var(--bold);
@@ -511,15 +552,18 @@
     -o-border-radius: 20px;
 }
 
-.market-subscribe-partner .our-partner-sec .section-h45{
+.market-subscribe-partner .our-partner-sec .section-h45 {
     color: #fff;
 }
-.market-subscribe-partner .our-partner-sec{
+
+.market-subscribe-partner .our-partner-sec {
     background-color: #0F0F11;
 }
-.market-subscribe-partner .our-partner-sec .inner{
+
+.market-subscribe-partner .our-partner-sec .inner {
     padding: 60px 35px;
 }
+
 /* subscribe partner section end */
 
 
@@ -527,27 +571,32 @@
 
 /*  best service section start */
 
-.best-service-sec{
+.best-service-sec {
     padding: 100px 0px;
     background-color: #F4F4F4;
 }
+
 .best-service-sec .carousel-control-prev i,
-.best-service-sec .carousel-control-next i{
+.best-service-sec .carousel-control-next i {
     color: #000000 !important;
     font-size: 30px;
 }
-.best-service-sec .carosal-text{
+
+.best-service-sec .carosal-text {
     width: 75%;
     margin: auto;
 }
-.best-service-sec .carosal-text p{
+
+.best-service-sec .carosal-text p {
     font-size: 22px;
     color: #707070;
 }
-.best-service-sec .carousel-indicators{
+
+.best-service-sec .carousel-indicators {
     bottom: -50px;
 }
-.best-service-sec .carousel-indicators [data-bs-target]{
+
+.best-service-sec .carousel-indicators [data-bs-target] {
     background-color: #000 !important;
     width: 10px;
     height: 10px;
@@ -564,44 +613,53 @@
 
 /* our packages section start */
 
-.our-packages-sec{
+.our-packages-sec {
     margin-top: 50px;
 }
-.our-packages-sec .packages-table-outer{
+
+.our-packages-sec .packages-table-outer {
     background-color: #17161A;
 }
-.our-packages-sec .packages-table-outer table{
+
+.our-packages-sec .packages-table-outer table {
     border: transparent !important;
 }
-.our-packages-sec .packages-table-outer .table .bg{
+
+.our-packages-sec .packages-table-outer .table .bg {
     background-color: #D00928;
     color: #fff;
     font-size: 30px;
     font-weight: var(--medium);
     border: 1px solid #17161A;
 }
-.our-packages-sec .packages-table-outer .empty{
+
+.our-packages-sec .packages-table-outer .empty {
     border: none;
     color: transparent;
 }
-.our-packages-sec .packages-table-outer .table td{
+
+.our-packages-sec .packages-table-outer .table td {
     padding: 15px;
     text-align: center;
 }
-.our-packages-sec .packages-table-outer .table .td-first{
+
+.our-packages-sec .packages-table-outer .table .td-first {
     text-align: left;
 }
-.our-packages-sec .packages-table-outer .head-table-two td{
+
+.our-packages-sec .packages-table-outer .head-table-two td {
     font-size: 20px;
     font-weight: var(--medium);
     color: #fff;
 }
-.our-packages-sec .packages-table-outer tbody td{
+
+.our-packages-sec .packages-table-outer tbody td {
     font-size: 20px;
     font-weight: var(--medium);
     color: #fff;
 }
-.our-packages-sec .packages-table-outer tbody .mark{
+
+.our-packages-sec .packages-table-outer tbody .mark {
     width: 25px;
     height: 25px;
     display: flex;
@@ -616,13 +674,16 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.our-packages-sec .packages-table-outer tbody .active-mark{
+
+.our-packages-sec .packages-table-outer tbody .active-mark {
     background-color: #D00928;
 }
-.our-packages-sec .packages-table-outer tbody .inActive-mark{
+
+.our-packages-sec .packages-table-outer tbody .inActive-mark {
     background-color: #303030;
 }
-.our-packages-sec .packages-table-outer .book-call-btn{
+
+.our-packages-sec .packages-table-outer .book-call-btn {
     background-color: #D00928;
     color: #fff;
     font-size: 30px;
@@ -634,33 +695,83 @@
     -o-border-radius: 40px;
 }
 
-.our-packages-sec-mobile .card .card-header{
+.our-packages-sec-mobile .card .card-header {
     background-color: #17161A;
     color: #fff;
     text-align: center;
     padding: 15px 0px;
 }
-.our-packages-sec-mobile .card .card-body{
+
+.our-packages-sec-mobile .card .card-body {
     text-align: center;
     padding: 30px 0px;
 }
-.our-packages-sec-mobile .card .card-body h1{
+
+.our-packages-sec-mobile .card .card-body h1 {
     font-size: 60px;
     font-weight: var(--bold);
 }
-.our-packages-sec-mobile .card .card-body h6{
+
+.our-packages-sec-mobile .card .card-body h6 {
     font-size: 22px;
 }
-.our-packages-sec-mobile .card .card-body .package-view-details-btn{
+
+.our-packages-sec-mobile .card .card-body .package-view-details-btn {
     background-color: #17161A;
     color: #fff;
     font-size: 18px;
-   padding: 10px 20px;
-   font-weight: var(--medium);
-   margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: var(--medium);
+    margin-top: 20px;
 }
 
 /* our packages section end */
+
+
+/* top marketing section start */
+.top-marketing-sec {
+    padding: 100px 0px;
+    /* background-color: #F4F4F4; */
+    background-image: url("../images/Group\ 863.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-marketing-sec .section-h45 {
+    color: #fff;
+}
+
+.top-marketing-sec .bottom-heading {
+    font-size: 20px;
+    font-weight: var(--medium);
+    color: #fff;
+}
+
+.top-marketing-sec .bottom-heading.color {
+    color: var(--red-one);
+}
+
+.top-marketing-sec .carousel-control-prev i,
+.top-marketing-sec .carousel-control-next i {
+    color: #fff !important;
+    font-size: 30px;
+}
+
+.top-marketing-sec .carosal-text {
+    width: 75%;
+    margin: auto;
+}
+
+.top-marketing-sec .carosal-text p {
+    font-size: 22px;
+    color: #fff;
+}
+
+
+
+
+/* top marketing section end */
 
 
 
@@ -726,27 +837,32 @@
 
 
     /* about us section start */
-    .market-about-us .second-row{
-        margin-top: 30px;
-    }
-    .market-about-us .third-row{
+    .market-about-us .second-row {
         margin-top: 30px;
     }
 
-    .market-about-us .second-row h1{
+    .market-about-us .third-row {
+        margin-top: 30px;
+    }
+
+    .market-about-us .second-row h1 {
         font-size: 25px;
     }
-    .market-about-us .third-row p{
+
+    .market-about-us .third-row p {
         font-size: 14px;
     }
+
     .market-about-us .third-row .circle-img {
         width: 30px;
         margin-top: 5px;
     }
-    .market-about-us .third-row .images-sec{
+
+    .market-about-us .third-row .images-sec {
         margin-top: 90px;
     }
-    .market-about-us .third-row .images-sec .position-img{
+
+    .market-about-us .third-row .images-sec .position-img {
         width: 70%;
     }
 
@@ -755,13 +871,15 @@
     /* casse study section start */
 
 
-    .market-case-study .cards-row .case-card .case-card-text{
+    .market-case-study .cards-row .case-card .case-card-text {
         padding: 12px;
     }
-    .market-case-study .cards-row .case-card .case-card-text h6{
+
+    .market-case-study .cards-row .case-card .case-card-text h6 {
         font-size: 12px;
     }
-    .market-case-study .cards-row .case-card .case-card-text h5{
+
+    .market-case-study .cards-row .case-card .case-card-text h5 {
         font-size: 15px;
     }
 
@@ -771,14 +889,16 @@
     /* digital marketing section start */
 
 
-    .market-digital-marketing .accordion .accordion-button{
+    .market-digital-marketing .accordion .accordion-button {
         font-size: 22px;
         padding: 11px 15px;
     }
+
     .market-digital-marketing .accordion .accordion-body p {
         font-size: 15px;
     }
-    .market-digital-marketing .video-sec .btn{
+
+    .market-digital-marketing .video-sec .btn {
         width: 100px;
         height: 100px;
         font-size: 12px;
@@ -797,46 +917,57 @@
 
     /* subscribe partner section start */
 
-    .market-subscribe-partner .subscribe-sec .subscribe-text{
+    .market-subscribe-partner .subscribe-sec .subscribe-text {
         width: 70%;
     }
-    .market-subscribe-partner .subscribe-sec .subscribe-text .subscribe-input{
+
+    .market-subscribe-partner .subscribe-sec .subscribe-text .subscribe-input {
         padding: 0.375rem 0.75rem;
     }
-    .market-subscribe-partner .subscribe-sec .subscribe-text .connect-btn{
+
+    .market-subscribe-partner .subscribe-sec .subscribe-text .connect-btn {
         font-size: 12px;
         top: 3px;
     }
+
     /* subscribe partner section end */
 
     /*  best service section start */
 
-    .best-service-sec .carosal-text p{
+    .best-service-sec .carosal-text p,
+    .top-marketing-sec .carosal-text p {
         font-size: 16px;
+    }
+
+    .top-marketing-sec .carosal-text,
+    .best-service-sec .carosal-text {
+        width: 82%;
     }
 
     /*  best service section end */
 }
 
-@media (min-width: 578px) AND (max-width:768px){
+@media (min-width: 578px) AND (max-width:768px) {
     /* casse study section start */
 
 
-    .market-case-study .cards-row .case-card .case-card-text{
+    .market-case-study .cards-row .case-card .case-card-text {
         width: 85%;
         padding: 12px;
     }
-    .market-case-study .cards-row .case-card .case-card-text h6{
+
+    .market-case-study .cards-row .case-card .case-card-text h6 {
         font-size: 12px;
     }
-    .market-case-study .cards-row .case-card .case-card-text h5{
+
+    .market-case-study .cards-row .case-card .case-card-text h5 {
         font-size: 15px;
     }
 
 
     /* casse study section end */
 
-    
+
 }
 
 @media (min-width:769px) AND (max-width:990px) {
@@ -879,30 +1010,35 @@
 
     /* about us section start */
 
-    .market-about-us .second-row h1{
+    .market-about-us .second-row h1 {
         font-size: 30px;
     }
+
     .market-about-us .third-row .circle-img {
         width: 30px;
         margin-top: 3px;
     }
-    .market-about-us .third-row .images-sec .position-img{
+
+    .market-about-us .third-row .images-sec .position-img {
         width: 50%;
     }
+
     /* about us section end */
 
 
     /* casse study section start */
 
 
-    .market-case-study .cards-row .case-card .case-card-text{
+    .market-case-study .cards-row .case-card .case-card-text {
         width: 90%;
         padding: 12px;
     }
-    .market-case-study .cards-row .case-card .case-card-text h6{
+
+    .market-case-study .cards-row .case-card .case-card-text h6 {
         font-size: 12px;
     }
-    .market-case-study .cards-row .case-card .case-card-text h5{
+
+    .market-case-study .cards-row .case-card .case-card-text h5 {
         font-size: 15px;
     }
 
@@ -910,13 +1046,14 @@
     /* casse study section end */
 
 
-     /* digital marketing section start */
+    /* digital marketing section start */
 
 
-     .market-digital-marketing .accordion .accordion-button{
+    .market-digital-marketing .accordion .accordion-button {
         font-size: 22px;
         padding: 11px 15px;
     }
+
     .market-digital-marketing .accordion .accordion-body p {
         font-size: 15px;
     }
@@ -927,16 +1064,17 @@
     /* our packages section start */
 
     .our-packages-sec .packages-table-outer .table .bg,
-    .our-packages-sec .packages-table-outer .book-call-btn{
+    .our-packages-sec .packages-table-outer .book-call-btn {
         font-size: 22px;
     }
+
     .our-packages-sec .packages-table-outer tbody td,
-    .our-packages-sec .packages-table-outer .head-table-two td{
+    .our-packages-sec .packages-table-outer .head-table-two td {
         font-size: 18px;
     }
 
     /* our packages section end */
-    
+
 }
 
 @media (min-width:991px) AND (max-width:1200px) {
@@ -980,9 +1118,10 @@
 
     /* about us section start */
 
-    .market-about-us .second-row h1{
+    .market-about-us .second-row h1 {
         font-size: 30px;
     }
+
     .market-about-us .third-row .circle-img {
         width: 30px;
         margin-top: 3px;
@@ -994,22 +1133,24 @@
     /* casse study section start */
 
 
-    .market-case-study .cards-row .case-card .case-card-text h5{
+    .market-case-study .cards-row .case-card .case-card-text h5 {
         font-size: 16px;
     }
-    .market-case-study .cards-row .case-card .case-card-text h6{
+
+    .market-case-study .cards-row .case-card .case-card-text h6 {
         font-size: 13px;
     }
 
     /* case study section end */
 
-     /* digital marketing section start */
+    /* digital marketing section start */
 
 
-     .market-digital-marketing .accordion .accordion-button{
+    .market-digital-marketing .accordion .accordion-button {
         font-size: 22px;
         padding: 11px 15px;
     }
+
     .market-digital-marketing .accordion .accordion-body p {
         font-size: 15px;
     }
@@ -1021,10 +1162,11 @@
     /* greate team section start */
 
 
-    .market-great-team .cards-row .card-footer h6{
+    .market-great-team .cards-row .card-footer h6 {
         font-size: 18px;
     }
-    .market-great-team .cards-row .card-footer p{
+
+    .market-great-team .cards-row .card-footer p {
         font-size: 15px;
     }
 
@@ -1058,9 +1200,10 @@
 
     /* about us section start */
 
-    .market-about-us .second-row h1{
+    .market-about-us .second-row h1 {
         font-size: 45px;
     }
+
     .market-about-us .third-row .circle-img {
         width: 35px;
     }
@@ -1071,10 +1214,11 @@
     /* digital marketing section start */
 
 
-    .market-digital-marketing .accordion .accordion-button{
+    .market-digital-marketing .accordion .accordion-button {
         font-size: 24px;
         padding: 10px 15px;
     }
+
     .market-digital-marketing .accordion .accordion-body p {
         font-size: 15px;
     }
