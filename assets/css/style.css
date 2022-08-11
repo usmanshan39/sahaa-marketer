@@ -775,6 +775,144 @@
 
 
 
+/* latest news section start */
+
+.latest-news-sec{
+    margin-top: 50px;
+}
+.latest-news-sec .news-card{
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+}
+.latest-news-sec .news-card .card-body{
+    padding: 30px;
+}
+.latest-news-sec .news-card .card-body h3{
+    font-size: 24px;
+    font-weight: var(--medium);
+    margin-top: 15px;
+}
+.latest-news-sec .news-card .card-body p{
+    font-size: 18px;
+}
+.latest-news-sec .btn-view-bolgs{
+    background-image: linear-gradient(to right, #D00928, #670001);
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: 500;
+    border: 0;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
+/* latest news section end */
+
+
+/* Digital marketing agency section start */
+
+.digital-agency-sec{
+    margin-top: 50px;
+    padding: 50px 0px;
+    background-image: url("../images/Group\ 863.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.digital-agency-sec .section-h45{
+    border-bottom: 1px solid var(--red-one);
+    padding-bottom: 10px;
+    width: fit-content;
+    margin: auto;
+    color: #fff;
+}
+.digital-agency-sec .text-row {
+    margin-top: 35px;
+    color: #fff;
+}
+.digital-agency-sec .text-row p{
+    color: #fff;
+}
+
+
+/* Digital marketing agency section end */
+
+
+/* call our team secction start */
+
+.left-section-bg{
+    background-image: url("../images/team-call.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    position: relative;
+}
+.team-call-sec .heading-row{
+    margin: 50px 0px;
+}
+.team-call-sec .full-row .text-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.team-call-sec .full-row .text-box .section-h45{
+    color: #fff;
+}
+.team-call-sec .full-row .text-box h6{
+    font-size: 20px;
+    font-weight: var(--bold);
+    color: var(--red-one);
+}
+.team-call-sec .full-row .right-form-sec{
+    background-color: #0F0F11;
+}
+.team-call-sec .full-row .right-form-sec .inner{
+    padding: 60px 35px;
+}
+.team-call-sec .full-row .right-form-sec .section-h45{
+    color: #fff;
+}
+.team-call-sec .full-row .right-form-sec .inner .contact-us-form{
+    margin-top: 40px;
+}
+.team-call-sec .full-row .right-form-sec .inner .contact-us-form .form-control{
+    margin-top: 40px;
+    padding: 1.2rem 1.6rem;
+    background-color: transparent;
+    border-color: #707070;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.team-call-sec .full-row .right-form-sec .inner .contact-us-form .submit-btn{
+    background-color: var(--red-one);
+    color: #fff;
+    font-size: 20px;
+    font-weight: var(--bold);
+    margin-top: 60px;
+}
+/* call our team secction end */
+
+
+
 
 @media (max-width:768px) {
 
@@ -1074,6 +1212,21 @@
     }
 
     /* our packages section end */
+
+
+    /* latest news section start */
+
+    .latest-news-sec .news-card .card-body{
+        padding: 15px;
+    }
+    .latest-news-sec .news-card .card-body h3{
+        font-size: 18px;
+    }
+    .latest-news-sec .news-card .card-body p{
+        font-size: 14px;
+    }
+
+    /* latest news section end */
 
 }
 
