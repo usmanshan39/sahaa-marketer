@@ -1,6 +1,6 @@
 /* navbar styling start */
 .main-header {
-    background-color: var(--main-back);
+    background-color: var(--main-black);
     position: relative;
 }
 
@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--main-back);
+    background-color: var(--main-black);
     z-index: 999;
 }
 
@@ -272,7 +272,7 @@
 }
 
 .market-case-study .cards-row .case-card .case-card-text {
-    background-color: #0F0F11;
+    background-color: var(--sub-black);
     color: #fff;
     padding: 25px;
     width: 80%;
@@ -557,7 +557,7 @@
 }
 
 .market-subscribe-partner .our-partner-sec {
-    background-color: #0F0F11;
+    background-color: var(--sub-black);
 }
 
 .market-subscribe-partner .our-partner-sec .inner {
@@ -877,7 +877,7 @@
     color: var(--red-one);
 }
 .team-call-sec .full-row .right-form-sec{
-    background-color: #0F0F11;
+    background-color: var(--sub-black);
 }
 .team-call-sec .full-row .right-form-sec .inner{
     padding: 60px 35px;
@@ -910,6 +910,84 @@
     margin-top: 60px;
 }
 /* call our team secction end */
+
+
+/* faq section start */
+
+.faq-sec{
+    margin-top: 50px;
+}
+.faq-sec .accordion .accordion-button:not(.collapsed){
+    background-color: transparent;
+    border: 1px solid var(--red-one);
+    box-shadow: none;
+    color: #000;
+}
+.faq-sec .accordion .accordion-button{
+    font-size: 24px;
+    font-weight: var(--medium);
+    border: 1px solid #707070;
+}
+.faq-sec .global-p{
+    color: #000000 !important;
+}
+.faq-sec .accordion-item{
+    border: none;
+    margin-top: 10px;
+}
+/* faq section end */
+
+
+
+/* footer section start */
+
+.footer-sec{
+    margin-top: 50px;
+    background-color: var(--main-black);
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.footer-sec .footer-sub-heading{
+    font-size: 22px;
+    color: var(--red-one);
+}
+.footer-sec .footer-ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 35px;
+}
+.footer-sec .footer-ul li{
+    padding: 3px 0px;
+}
+.footer-sec .footer-ul li a{
+    font-size: 18px;
+    font-weight: var(--light);
+    color: #fff;
+    text-decoration: none;
+}
+.footer-sec .bottom-row p{
+    font-size: 18px;
+    font-weight: var(--light);
+}
+.footer-sec .bottom-row .icon-span{
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--red-one);
+    color: var(--red-one);
+    margin: 0px 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* footer section end */
 
 
 
@@ -1083,6 +1161,16 @@
     }
 
     /*  best service section end */
+
+
+    /* faq section start */
+
+
+    .faq-sec .accordion .accordion-button{
+        font-size: 18px;
+    }
+
+    /* faq section end */
 }
 
 @media (min-width: 578px) AND (max-width:768px) {
@@ -1325,6 +1413,18 @@
 
 
     /* greate team section end */
+
+
+    /* footer start */
+
+    .footer-sec .footer-sub-heading{
+        font-size: 20px;
+    }
+    .footer-sec .footer-ul li a{
+        font-size: 15px;
+    }
+
+    /* footer end */
 }
 
 @media (min-width:1201px) AND (max-width:1400px) {

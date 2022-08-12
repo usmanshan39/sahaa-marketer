@@ -1,5 +1,6 @@
 :root {
-    --main-back: #141414;
+    --main-black: #141414;
+    --sub-black:#0F0F11;
     --red-one: #D00928;
     --main-font: 'Saira', sans-serif;
     --bold: 700;
@@ -31,8 +32,8 @@ body {
 }
 
 .black-fill-btn {
-    background-color: var(--main-back);
-    border: 1px solid var(--main-back);
+    background-color: var(--main-black);
+    border: 1px solid var(--main-black);
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -46,7 +47,7 @@ body {
 }
 
 .black-fill-btn:hover {
-    background-color: var(--main-back);
+    background-color: var(--main-black);
 }
 
 .white-outline-btn {
