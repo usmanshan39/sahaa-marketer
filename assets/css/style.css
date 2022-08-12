@@ -1024,7 +1024,56 @@
 .meet-the-team .team-page-head .global-p{
     color: #fff;
 }
+.meet-the-team .counting-row .counting-card{
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+    padding: 20px 10px;
+    height: 225px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
+.meet-the-team .counting-row .counting-card h1{
+    font-size: 75px;
+    font-weight: var(--bold);
+}
+
+/* our client section start */
+
+.meet-the-team .our-client-sec{
+    background-color: var(--main-black);
+    color: #fff;
+    padding: 70px 0px;
+}
+.meet-the-team .client-carousel{
+    margin-top: 50px;
+}
+.meet-the-team .carousel-img{
+    width: 200px !important;
+    margin: auto;
+}
+
+/* our client section end */
+
+/* extended team section start */
+
+.meet-the-team .extended-team-sec{
+    padding: 100px 0px;
+    background-image: url(../images/Group\ 863.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.meet-the-team .extended-team-sec .global-p,
+.meet-the-team .extended-team-sec .section-h45{
+    color: #fff;
+}
+
+
+
+/* extended team section end */
 
 
 
@@ -1039,6 +1088,9 @@
 
     /* meet our team page start */
 
+    /* meet the team section start */
+
+
     .meet-the-team .team-page-head .section-h45{
         font-size: 15px;
     }
@@ -1046,6 +1098,19 @@
     .meet-the-team .team-page-head .global-p{
         font-size: 12px;
     }
+
+
+    .meet-the-team .counting-row .counting-card {
+        height: 180px;
+    }
+    .meet-the-team .counting-row .counting-card h1{
+        font-size: 60px;
+    }
+    .meet-the-team .counting-row .counting-card .global-p{
+        font-size: 14px;
+    }
+
+    /* meet the team section end */
 
     /* meet our team page end */
 }
@@ -1394,6 +1459,29 @@
     }
 
     /* latest news section end */
+
+
+    /* meet our team page start start */
+
+
+
+    /* meet the team section start */
+
+    .meet-the-team .counting-row .counting-card {
+        height: 195px;
+    }
+    .meet-the-team .counting-row .counting-card h1{
+        font-size: 60px;
+    }
+    .meet-the-team .counting-row .counting-card .global-p{
+        font-size: 14px;
+    }
+
+    /* meet the team section end */
+
+
+
+    /* meet our team page start end */
 
 }
 

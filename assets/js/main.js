@@ -7,8 +7,8 @@ $( document ).ready(function() {
   });
 
 
-  // owl carosal
-  var owl = $('.owl-carousel');
+  // owl carosal for index pages
+  var owl = $('.video-owl-carousel');
   owl.owlCarousel({
     margin: 10,
     loop: true,
@@ -23,6 +23,29 @@ $( document ).ready(function() {
       },
       1000: {
         items: 3
+      }
+    }
+  })
+
+  // owl carosal for meet the team page 
+  var owl = $('.team-owl-carousel');
+  owl.owlCarousel({
+    margin: 10,
+    loop: true,
+    nav: false,
+    center: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3
+      },
+      1400: {
+        items: 5
       }
     }
   })
