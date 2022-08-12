@@ -1035,6 +1035,8 @@
 
 
 @media (max-width:550px){
+
+
     /* meet our team page start */
 
     .meet-the-team .team-page-head .section-h45{
@@ -1188,6 +1190,16 @@
 
     /* video content section end */
 
+
+    /* call our team section start */
+
+    .team-call-sec .left-section-bg{
+        height: 220px;
+    }
+
+
+    /* call our team section end */
+
     /* subscribe partner section start */
 
     .market-subscribe-partner .subscribe-sec .subscribe-text {
@@ -1228,6 +1240,7 @@
     }
 
     /* faq section end */ 
+    
 }
 
 @media (min-width: 578px) AND (max-width:768px) {
@@ -1357,6 +1370,15 @@
     }
 
     /* our packages section end */
+
+    /* call our team section start */
+
+    .team-call-sec .left-section-bg{
+        height: 220px;
+    }
+
+
+    /* call our team section end */
 
 
     /* latest news section start */
