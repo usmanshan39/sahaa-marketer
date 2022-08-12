@@ -992,6 +992,63 @@
 
 
 
+/* meet our team page start here */
+
+.meet-the-team .team-page-head{
+    margin-top: 87px;
+    position: relative;
+    /* background-image: url("../images/The-Good-Marketer-18-scaled.jpg");
+    background-position: center right;
+    background-size: cover;
+    padding: 260px 0px 155px 0px; */
+}
+.meet-the-team .team-page-head  .bg-overlay{
+    background-image: linear-gradient(to right, rgb(103, 0, 1, 0.9), rgb(208, 9, 40, 0.7));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.meet-the-team .team-page-head .text-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+    width: fit-content;
+}
+.meet-the-team .team-page-head .section-h45,
+.meet-the-team .team-page-head .global-p{
+    color: #fff;
+}
+
+
+
+
+/* meet our team page start end */
+
+
+
+
+
+@media (max-width:550px){
+    /* meet our team page start */
+
+    .meet-the-team .team-page-head .section-h45{
+        font-size: 15px;
+    }
+
+    .meet-the-team .team-page-head .global-p{
+        font-size: 12px;
+    }
+
+    /* meet our team page end */
+}
+
+
 @media (max-width:768px) {
 
     /* top-header start */
@@ -1170,7 +1227,7 @@
         font-size: 18px;
     }
 
-    /* faq section end */
+    /* faq section end */ 
 }
 
 @media (min-width: 578px) AND (max-width:768px) {
