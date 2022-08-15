@@ -121,6 +121,7 @@ body {
     }
     .pages-banner-text-box{
         left: 20px;
+        width: 100%;
     }
     .banner-main-heading{
         font-size: 45px;
