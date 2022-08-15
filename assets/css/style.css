@@ -1058,34 +1058,8 @@
 /* packages-page start */
 
 
-.packages-page .packages-page-head{
-    margin-top: 87px;
-    position: relative;
-}
-.packages-page .packages-page-head  .bg-overlay{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.packages-page .packages-page-head .text-box{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: fit-content;
-    margin: auto;
-    width: fit-content;
-}
-.packages-page .packages-page-head .section-h45,
-.packages-page .packages-page-head .global-p{
-    color: #fff;
-}
-.packages-page-head.top-header{
-    padding: 0;
+.packages-page .packages-page-head  .pages-banner-head-content{
+    background-image: url("../images/The-Good-Marketer-18-scaled.jpg");
 }
 
 
