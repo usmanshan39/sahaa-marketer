@@ -78,7 +78,40 @@ body {
     -webkit-text-stroke-color: #fff;
     letter-spacing: 3px;
 }
-
+.banner-main-heading{
+    font-size: 60px;
+    font-weight: var(--bold);
+}
+.banner-sub-heading{
+    font-size: 25px;
+    font-weight: var(--medium);
+}
+.pages-banner-text-box{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+}
+.pages-banner-head-content{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0px;
+    position: relative;
+}
+.bg-black-overlay{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 @media (max-width:768px) {
     .section-h45{
         font-size: 25px;
@@ -86,10 +119,30 @@ body {
     .global-p{
         font-size: 16px;
     }
+    .pages-banner-text-box{
+        left: 30px;
+        padding-right: 30px;
+    }
+    .banner-main-heading{
+        font-size: 45px;
+    }
+    .banner-sub-heading{
+        font-size: 20px;
+    }
 }
 @media (min-width:769px) AND (max-width:990px) {
     .section-h45{
         font-size: 25px;
+    }
+    .pages-banner-text-box{
+        left: 30px;
+        padding-right: 30px;
+    }
+    .banner-main-heading{
+        font-size: 45px;
+    }
+    .banner-sub-heading{
+        font-size: 23px;
     }
 }
 
@@ -97,10 +150,22 @@ body {
     .section-h45{
         font-size: 25px;
     }
+    .banner-main-heading{
+        font-size: 45px;
+    }
+    .banner-sub-heading{
+        font-size: 23px;
+    }
 }
 @media (min-width:1201px) AND (max-width:1400px) {
     .section-h45{
         font-size: 30px;
+    }
+    .banner-main-heading{
+        font-size: 50px;
+    }
+    .banner-sub-heading{
+        font-size: 25px;
     }
 }
 

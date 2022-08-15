@@ -993,36 +993,8 @@
 
 
 /* meet our team page start here */
-
-.meet-the-team .team-page-head{
-    margin-top: 87px;
-    position: relative;
-    /* background-image: url("../images/The-Good-Marketer-18-scaled.jpg");
-    background-position: center right;
-    background-size: cover;
-    padding: 260px 0px 155px 0px; */
-}
-.meet-the-team .team-page-head  .bg-overlay{
-    background-image: linear-gradient(to right, rgb(103, 0, 1, 0.9), rgb(208, 9, 40, 0.7));
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.meet-the-team .team-page-head .text-box{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: fit-content;
-    margin: auto;
-    width: fit-content;
-}
-.meet-the-team .team-page-head .section-h45,
-.meet-the-team .team-page-head .global-p{
-    color: #fff;
+.meet-the-team .meet-team-top-header .pages-banner-head-content{
+    background-image: url("../images/The-Good-Marketer-18-scaled.jpg");
 }
 .meet-the-team .counting-row .counting-card{
     box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
@@ -1123,32 +1095,10 @@
 
 
 /* blogs-page start */
-.blogs-page .blog-top-header{
-    padding: 0 !important;
-}
-.blogs-page .blog-top-header{
-    position: relative;
-    margin-top: 87px;
-}
-.blogs-page .main-header .text-box{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: fit-content;
-    margin: auto;
-    width: fit-content;
-}
-.blogs-page .main-header .bg-overlay{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
+.blogs-page .blog-top-header .pages-banner-head-content{
+    background-image: url("../images/blogs.jpg");
+}
 /* blogs cards start */
 
 .blogs-page  .blog-card{
@@ -1193,6 +1143,16 @@
 
 /* blogs-page end */
 
+
+
+/* case study page start */
+
+.case-study .pages-banner-head-content{
+    background-image: url("../images/blogs.jpg");
+}
+
+
+/* case stydy page end */
 
 
 
