@@ -1042,15 +1042,18 @@
 
 /* our client section start */
 
-.meet-the-team .our-client-sec{
+.meet-the-team .our-client-sec,
+.packages-page .our-client-sec{
     background-color: var(--main-black);
     color: #fff;
     padding: 70px 0px;
 }
-.meet-the-team .client-carousel{
+.meet-the-team .client-carousel,
+.packages-page .client-carousel{
     margin-top: 50px;
 }
-.meet-the-team .carousel-img{
+.meet-the-team .carousel-img,
+.packages-page .carousel-img{
     width: 200px !important;
     margin: auto;
 }
@@ -1078,6 +1081,44 @@
 
 
 /* meet our team page start end */
+
+
+/* packages-page start */
+
+
+.packages-page .packages-page-head{
+    margin-top: 87px;
+    position: relative;
+}
+.packages-page .packages-page-head  .bg-overlay{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.packages-page .packages-page-head .text-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+    width: fit-content;
+}
+.packages-page .packages-page-head .section-h45,
+.packages-page .packages-page-head .global-p{
+    color: #fff;
+}
+.packages-page-head.top-header{
+    padding: 0;
+}
+
+
+
+/* packages-page end */
 
 
 
@@ -1113,6 +1154,15 @@
     /* meet the team section end */
 
     /* meet our team page end */
+
+
+    /* our packages page  start*/
+
+    .packages-page-head.top-header .right-text-sec p{
+        display: none;
+    }
+
+    /* our packages page end */
 }
 
 
