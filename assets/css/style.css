@@ -1015,17 +1015,20 @@
 /* our client section start */
 
 .meet-the-team .our-client-sec,
-.packages-page .our-client-sec{
+.packages-page .our-client-sec,
+.case-study .our-client-sec{
     background-color: var(--main-black);
     color: #fff;
     padding: 70px 0px;
 }
 .meet-the-team .client-carousel,
-.packages-page .client-carousel{
+.packages-page .client-carousel,
+.case-study .client-carousel{
     margin-top: 50px;
 }
 .meet-the-team .carousel-img,
-.packages-page .carousel-img{
+.packages-page .carousel-img,
+.case-study .carousel-img{
     width: 200px !important;
     margin: auto;
 }
