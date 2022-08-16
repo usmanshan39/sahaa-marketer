@@ -1012,28 +1012,7 @@
     font-weight: var(--bold);
 }
 
-/* our client section start */
 
-.meet-the-team .our-client-sec,
-.packages-page .our-client-sec,
-.case-study .our-client-sec{
-    background-color: var(--main-black);
-    color: #fff;
-    padding: 70px 0px;
-}
-.meet-the-team .client-carousel,
-.packages-page .client-carousel,
-.case-study .client-carousel{
-    margin-top: 50px;
-}
-.meet-the-team .carousel-img,
-.packages-page .carousel-img,
-.case-study .carousel-img{
-    width: 200px !important;
-    margin: auto;
-}
-
-/* our client section end */
 
 /* extended team section start */
 
@@ -1130,6 +1109,70 @@
 
 
 /* case stydy page end */
+
+
+/* what we do page start */
+
+
+.what-we-do .pages-banner-head-content{
+    background-image: url("../images/FacebookAds_Mixed.png");
+    padding: 350px 0px;
+}
+.what-we-do .book-a-call-btn{
+    background-image: linear-gradient(to right, #D00928, #670001);
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+}
+.what-we-do .services-card{
+    position: relative;
+}
+.what-we-do .service-card-overlay{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.what-we-do .service-card-overlay h3{
+    font-size: 28px;
+    font-weight: var(--bold);
+}
+.what-we-do .service-card-overlay .global-p{
+    color: #fff;
+    font-size: 18px;
+}
+.what-we-do .service-card-overlay .overlay-text{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+    width: 90%;
+}
+.btn-learn-outline{
+    color: var(--red-one);
+    border-color: var(--red-one);
+}
+.service-card-overlay-b{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.main-service-card:hover .service-card-overlay-b{
+    display: block;
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transition-delay: inherit;
+}
+
+
+/* what we do page end */
 
 
 
