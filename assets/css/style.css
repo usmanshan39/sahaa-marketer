@@ -639,6 +639,7 @@
 .best-service-sec .carosal-text p {
     font-size: 22px;
     color: #707070;
+    min-height: 300px;
 }
 
 .best-service-sec .carousel-indicators {
