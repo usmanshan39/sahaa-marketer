@@ -1323,6 +1323,14 @@
     font-size: 100px;
     color: var(--red-one);
   }
+  .social-bg-img{
+    background-image: url("../images/social-bg.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
 
