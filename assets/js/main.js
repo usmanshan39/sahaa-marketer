@@ -130,8 +130,8 @@ $grid.imagesLoaded().progress(function () {
 });
 
 
-$('.nav-item').click(function(){
- $('.nav-item').removeClass('active');
+$('.nav-item-logos').click(function(){
+ $('.nav-item-logos').removeClass('active');
  $(this).addClass('active');
  var selector=$(this).attr('data-filter');
  $('.isotope-item').isotope({
