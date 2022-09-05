@@ -52,6 +52,32 @@ $( document ).ready(function() {
 
   // meet the team page counter
 
+  // owl carosal for meet the team page 
+  var owl = $('.branPortfolio-owl-carousel');
+  owl.owlCarousel({
+    margin: 10,
+    loop: true,
+    nav: false,
+    center: false,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3
+      },
+      1400: {
+        items: 3
+      }
+    }
+  })
+
+  // meet the team page counter
+
   $('.count').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
