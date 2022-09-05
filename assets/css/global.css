@@ -112,6 +112,10 @@ body {
     top: 0;
     left: 0;
 }
+.bg-light-p100{
+    background-color: #F4F4F4;
+    padding: 100px 0px;
+}
 
 /* our client section start */
 

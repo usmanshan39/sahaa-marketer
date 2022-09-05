@@ -1377,6 +1377,12 @@
     margin-top: 10px;
     font-size: 18px;
 }
+.ol-li li{
+    font-weight: var(--bold);
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
 
 /* blog details page end */
 
