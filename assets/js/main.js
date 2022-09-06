@@ -91,6 +91,19 @@ $( document ).ready(function() {
 });
 
 
+// for timer hide show containers
+$("#timer-next-btn").on("click", function(e){
+  e.preventDefault();
+  $("#timer-personal-container").removeClass("d-none");
+  $("#timer-container").addClass("d-none");
+})
+$("#timer-pre-btn").on("click", function(e){
+  e.preventDefault();
+  $("#timer-personal-container").addClass("d-none");
+  $("#timer-container").removeClass("d-none");
+})
+
+
 
 // tabs
 

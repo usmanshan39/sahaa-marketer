@@ -645,3 +645,12 @@
     position: relative;
     float: right;
   }
+
+  .personal-head{
+    background-color: #3597DE;
+    padding: 15px;
+  }
+  .personal-head span{
+    font-size: 20px;
+    color: #fff;
+  }

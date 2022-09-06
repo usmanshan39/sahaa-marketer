@@ -84,7 +84,7 @@
 
         <!-- date time section start -->
         <section class="date-time-sec position-relative">
-         <div class="app-container" ng-app="dateTimeApp" ng-controller="dateTimeCtrl as ctrl" ng-cloak>
+         <div class="app-container" id="timer-container" ng-app="dateTimeApp" ng-controller="dateTimeCtrl as ctrl" ng-cloak>
 		
             <div date-picker
                 datepicker-title="Select Date And Time"
@@ -176,10 +176,62 @@
                   </div>
                   
                   <div class="buttons-container">
-                     <div class="cancel-button">CANCEL</div>
-                     <div class="save-button">SAVE</div>
+                     <div class="save-button" id="timer-next-btn">Next</div>
                   </div>
                   
+               </div>
+            </div>
+         </div>
+         <div class="app-container d-none" id="timer-personal-container">
+            <div class="personal-head">
+               <div class="row">
+                  <div class="col-md-12">
+                     <span>Enter Your Personal Information</span>
+                  </div>
+               </div>
+            </div>
+            <div class="row bg-white p-3">
+               <div class="col-md-6 mt-3">
+                  <div class="form-group">
+                     <label>Name</label>
+                     <input type="text" class="form-control">
+                  </div>
+               </div>
+               <div class="col-md-6 mt-3">
+                  <div class="form-group">
+                     <label>Email</label>
+                     <input type="email" class="form-control">
+                  </div>
+               </div>
+               <div class="col-md-6 mt-3">
+                  <div class="form-group">
+                     <label>Your Phone Number </label>
+                     <input type="text" class="form-control">
+                  </div>
+               </div>
+               <div class="col-md-6 mt-3">
+                  <div class="form-group">
+                     <label>Your Company Website </label>
+                     <input type="text" class="form-control">
+                  </div>
+               </div>
+               <div class="col-md-6 mt-3">
+                  <div class="form-group">
+                     <label>What is the reason for scheduling this call?</label>
+                     <input type="text" class="form-control">
+                  </div>
+               </div>
+               <div class="col-md-6 mt-3">
+                  <div class="form-group">
+                     <label>Send text messages to</label>
+                     <input type="text" class="form-control">
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <div class="mt-4 float-end">
+                     <div class="cancel-button" id="timer-pre-btn">Back</div>
+                     <div class="save-button">SAVE</div>
+                  </div>
                </div>
             </div>
          </div>
