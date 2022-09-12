@@ -1231,6 +1231,34 @@
     background-image: url("../images/Mixed.jpg");
     padding: 350px 0px;
 }
+.social-media-market .pages-banner-head-content.social-media-marketing{
+    background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Social\ Media\ Agency\ In\ london.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.facebook-advertising{
+    background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Facebook\ Advertising\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.instagram-advertising{
+    background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Instagram\ Advertising\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.twitter-advertising{
+    background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Twitter\ Advertising\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.tiktok-advertising{
+    background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Tiktok\ Advertising\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.pintrest-advertising{
+    background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Pinterest\ Advertising\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.linkdin-advertising{
+    background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Linkedin\ Advertising\ Agency.jpg");
+    padding: 350px 0px;
+}
 .social-media-market .social-links-row{
     background-color: var(--main-black);
     padding: 15px 0px;
@@ -1239,6 +1267,9 @@
     color: #fff;
     font-weight: var(--medium);
     text-decoration: none;
+}
+.social-media-market .social-links-row .social-link.active{
+    color: var(--red-one);
 }
 .social-media-market .social-media-case,
 .social-media-market .social-video-sec,
