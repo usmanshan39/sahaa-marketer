@@ -1320,19 +1320,46 @@
     background-image: url("../images/new/What-We-Do/Website-Development/Conversion\ Rate\ Optimization.jpg");
     padding: 350px 0px;
 }
-.social-media-market .pages-banner-head-content.{
-    background-image: url("../images/new/What-We-Do");
+.social-media-market .pages-banner-head-content.social-media-management-page{
+    background-image: url("../images/new/What-We-Do/Socia-Media-Management/SM\ Management.jpg");
     padding: 350px 0px;
 }
-.social-media-market .pages-banner-head-content.{
-    background-image: url("../images/new/What-We-Do");
+.social-media-market .pages-banner-head-content.content-marketing{
+    background-image: url("../images/new/What-We-Do/Content-Marketing/Content\ Marketing.jpg");
     padding: 350px 0px;
 }
-.social-media-market .pages-banner-head-content.{
-    background-image: url("../images/new/What-We-Do");
+.social-media-market .pages-banner-head-content.video-content-agency{
+    background-image: url("../images/new/What-We-Do/Content-Marketing/Video\ Content\ Marketing.jpg");
     padding: 350px 0px;
 }
-
+.social-media-market .pages-banner-head-content.copywriting-agency{
+    background-image: url("../images/new/What-We-Do/Content-Marketing/Copywriting.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.branding-agency{
+    background-image: url("../images/new/What-We-Do/Content-Marketing/Branding\ Agency\ in\ Dubai.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.poadcast-marketing{
+    background-image: url("../images/new/What-We-Do/Content-Marketing/Podcast\ Marketing.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.youtube-marketing{
+    background-image: url("../images/new/What-We-Do/Content-Marketing/Youtube\ Marketing.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.email-marketing{
+    background-image: url("../images/new/What-We-Do/Email-Marketing/Email\ Marketing\ Agency\ in\ Dubai.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.klaviyo-email-marketing{
+    background-image: url("../images/new/What-We-Do/Email-Marketing/Klaviyo\ Email\ Marketing\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.digital-strategy{
+    background-image: url("../images/new/What-We-Do/Digital-Strategy/Digital\ Strategy.jpg");
+    padding: 350px 0px;
+}
 
 .social-media-market .social-links-row{
     background-color: var(--main-black);
