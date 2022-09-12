@@ -1259,6 +1259,33 @@
     background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Linkedin\ Advertising\ Agency.jpg");
     padding: 350px 0px;
 }
+
+.social-media-market .pages-banner-head-content.pay-per-click{
+    background-image: url("../images/new/What-We-Do/PPC-Ads/Digital\ Marketing\ Agency\ in\ Dubai.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.google-advertising-agency{
+    background-image: url("../images/new/What-We-Do/PPC-Ads/Google\ Ads\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.google-shopping-management{
+    background-image: url("../images/new/What-We-Do/PPC-Ads/Google\ Shopping\ Ads\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.youtube-advertising{
+    background-image: url("../images/new/What-We-Do/PPC-Ads/Youtube\ Ads\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.bing-ads{
+    background-image: url("../images/new/What-We-Do/PPC-Ads/MS\ Bing\ Ads\ Agency.jpg");
+    padding: 350px 0px;
+}
+.social-media-market .pages-banner-head-content.linkdin-advertising{
+    background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Linkedin\ Advertising\ Agency.jpg");
+    padding: 350px 0px;
+}
+
+
 .social-media-market .social-links-row{
     background-color: var(--main-black);
     padding: 15px 0px;
