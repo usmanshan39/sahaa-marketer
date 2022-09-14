@@ -811,6 +811,7 @@
 .top-marketing-sec .carosal-text {
     width: 75%;
     margin: auto;
+    min-height: 150px;
 }
 
 .top-marketing-sec .carosal-text p {
@@ -829,6 +830,10 @@
 
 .latest-news-sec{
     margin-top: 50px;
+}
+.latest-news-sec .blog-link{
+    text-decoration: none;
+    color: #000;
 }
 .latest-news-sec .news-card{
     box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
@@ -1133,6 +1138,9 @@
     text-decoration: none;
     margin-top: 10px;
     color: #000;
+}
+.blogs-page  .blog-card-body .blog-link{
+    font-weight: 500;
 }
 .blogs-page  .blog-card-footer{
     padding: 6px 30px;
