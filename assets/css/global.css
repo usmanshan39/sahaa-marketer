@@ -112,6 +112,14 @@ body {
     top: 0;
     left: 0;
 }
+.bg-black-overlay-light{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .bg-light-p100{
     background-color: #F4F4F4;
     padding: 100px 0px;
