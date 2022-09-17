@@ -1239,6 +1239,18 @@
     background-image: url("../images/Mixed.jpg");
     padding: 350px 0px;
 }
+.meet-the-team .pages-banner-head-content.meet-the-team{
+    background-image: url("../images/new/who-ae-we.jpg");
+    padding: 350px 0px;
+}
+.packages-page .pages-banner-head-content.packages{
+    background-image: url("../images/new/packages.jpg");
+    padding: 350px 0px;
+}
+.meet-the-team .pages-banner-head-content.date-time{
+    background-image: url("../images/new/date-time.jpg");
+    padding: 350px 0px;
+}
 .social-media-market .pages-banner-head-content.social-media-marketing{
     background-image: url("../images/new/What-We-Do/Social-Media-Agency-in-London/Social\ Media\ Agency\ In\ london.jpg");
     padding: 350px 0px;
