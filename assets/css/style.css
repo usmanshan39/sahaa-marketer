@@ -1424,6 +1424,9 @@
   .social-media-market .flip-card-front.main-black{
     background-color: var(--main-black);
   }
+  .social-media-market .front-img{
+    margin: 60px 0px;
+  }
   .social-media-market .flip-card-back.main-redOne,
   .social-media-market .flip-card-front.main-redOne{
     background-color: var(--red-one);
