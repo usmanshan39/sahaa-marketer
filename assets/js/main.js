@@ -50,6 +50,26 @@ $( document ).ready(function() {
     }
   })
 
+    // owl carosal for meet the team page 
+    var owl = $('.our-projects');
+    owl.owlCarousel({
+      margin: 10,
+      loop: true,
+      nav: false,
+      center: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+
   // meet the team page counter
 
   // owl carosal for meet the team page 
